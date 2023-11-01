@@ -1,7 +1,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Clinic Schema ](#-schema-diagram-)
+- [📖 Clinic Schema ](#-clinic-schema-)
+    - [📊 Database Schema Diagram ](#-database-schema-diagram-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,6 +30,7 @@
 <div align="center">
   <img src="./clinic_diagram.png" alt="database-schema-diagram" />
   <br/>
+  <img src="./Medical_history.svg" alt="database-schema-diagram" />
 </div>
 
 ## 🛠 Built With <a name="built-with"></a>
