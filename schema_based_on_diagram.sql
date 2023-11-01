@@ -1,7 +1,7 @@
 CREATE TABLE patients(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name VARCHAR(255),
-    date_of_birth DATE,
+    date_of_birth DATE
 );
 
 CREATE TABLE medical_histories(
@@ -15,7 +15,7 @@ CREATE TABLE medical_histories(
 CREATE TABLE treatments(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     type VARCHAR(255),
-    name VARCHAR(255),
+    name VARCHAR(255)
 );
 
 CREATE TABLE invoices(
@@ -35,7 +35,7 @@ CREATE TABLE invoice_items(
     invoice_id INT,
     treatment_id INT,
     FOREIGN KEY (invoice_id) REFERENCES invoices(id),
-    FOREIGN KEY (treatment_id) REFERENCES treatments(id),
+    FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 );
 
 CREATE TABLE medical_histories_treatments(
