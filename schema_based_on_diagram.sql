@@ -1,3 +1,7 @@
+CREATE DATABASE medical_database;
+
+\c medical_database
+
 CREATE TABLE patients(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name VARCHAR(255),
